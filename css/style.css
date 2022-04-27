@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(251,228,63);
+  background: radial-gradient(circle, rgba(251,228,63,1) 0%, rgba(252,157,70,1) 100%); 
+}
+
+h1 {
+  font: normal 500 30px 'Ubuntu';
+}
+
+p {
+  font: normal 300 20px 'Ubuntu';
+}
+
+#cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 0 15px;
+}
+
+.navegacao a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 7px;
+  transition: .5s;
+  font: normal 300 20px 'Ubuntu';
+}
+
+.navegacao a:hover {
+  background-color: rgba(251,228,63,.5);
+  transition: .5s;
+}
+
+#conteudo {
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+}
+
+#conteudo div {
+  margin: 20px;
+}
+
+#conteudo div p {
+  text-align: center;
+}
+
+#rodape {
+  padding: 20px;
+}
+
+#rodape p {
+  text-align: center;
+}
