@@ -73,3 +73,17 @@ li {
 #rodape p {
   text-align: center;
 }
+
+/* ############### SOBRE ############### */
+
+#conteudo_sobre {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre_item {
+  background-color: aqua;
+  margin: 5px;
+}
