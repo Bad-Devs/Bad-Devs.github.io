@@ -7,15 +7,22 @@
 
 body {
   background: rgb(251,228,63);
-  background: radial-gradient(circle, rgba(251,228,63,1) 0%, rgba(252,157,70,1) 100%); 
+  /* background: radial-gradient(circle, rgba(251,228,63,1) 0%, rgba(252,157,70,1) 100%);  */
 }
 
 h1 {
   font: normal 500 30px 'Ubuntu';
+  color: #ecf0f1;
 }
 
 p {
   font: normal 300 20px 'Ubuntu';
+  color: #ecf0f1;
+}
+
+a {
+  text-decoration: none;
+  color: #ecf0f1;
 }
 
 #cabecalho {
@@ -24,6 +31,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background-color: #311700;
 }
 
 ul {
@@ -36,7 +44,6 @@ li {
 }
 
 .navegacao a {
-  color: #000;
   text-decoration: none;
   padding: 10px;
   border-radius: 7px;
@@ -45,17 +52,18 @@ li {
 }
 
 .navegacao a:hover {
-  background-color: rgba(251,228,63,.5);
+  background-color: #5b3508;
   transition: .5s;
 }
 
 #conteudo {
-  height: 500px;
+  height: 465px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;  
+  background-color: #311700;
 }
 
 #conteudo div {
@@ -68,6 +76,7 @@ li {
 
 #rodape {
   padding: 20px;
+  background-color: #5b3508;
 }
 
 #rodape p {
@@ -78,12 +87,66 @@ li {
 
 #conteudo_sobre {
   display: flex;
-  height: 500px;
+  height: 465px;
   justify-content: center;
   align-items: center;
+  background-color: #311700;
 }
 
 .sobre_item {
-  background-color: aqua;
-  margin: 5px;
+  background-color: #5b3508;
+  margin: 5px 5px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer;
+}
+
+.sobre_item:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.sobre_item img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 15px;
+  transition: .5s;
+
+}
+
+.sobre_item img:hover {
+  transform: scale(1.1, 1.1);
+  transition: .5s;
+
+}
+
+.sobre_item h1 {
+  margin: 15px;
+}
+
+.sobre_item p {
+  margin: 15px;
+
+}
+
+.sobre_item .redes_sociais {
+  display: flex;
+  justify-content: center;
+}
+
+.sobre_item .redes_sociais a {
+  font: normal 300 14px 'Ubuntu';
+  padding: 10px;
+  transition: .5s;
+  border-radius: 7px;
+}
+
+.sobre_item .redes_sociais a:hover {
+  background-color: #311700;
+  transition: .5s;
 }
