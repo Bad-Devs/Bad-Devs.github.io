@@ -17,7 +17,6 @@ p {
 
 a {
   text-decoration: none;
-  color: #ecf0f1;
 }
 
 #cabecalho {
@@ -27,6 +26,10 @@ a {
   align-items: center;
   padding: 20px;
   background-color: #311700;
+}
+
+#cabecalho a {
+  color: #ecf0f1;
 }
 
 ul {
@@ -39,11 +42,11 @@ li {
 }
 
 .navegacao a {
-  text-decoration: none;
   padding: 10px;
   border-radius: 7px;
   transition: .5s;
   font: normal 300 20px 'Ubuntu';
+  color: #ecf0f1;
 }
 
 .navegacao a:hover {
@@ -67,6 +70,10 @@ li {
 
 #conteudo div p {
   text-align: center;
+}
+
+#conteudo a {
+  color: #ff8c00;
 }
 
 #rodape {
@@ -139,9 +146,39 @@ li {
   padding: 10px;
   transition: .5s;
   border-radius: 7px;
+  color: #ecf0f1;
 }
 
 .sobre_item .redes_sociais a:hover {
   background-color: #311700;
   transition: .5s;
+}
+
+@media (max-width: 360px) {
+  .navegacao a {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 760px) {
+  #conteudo_sobre {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #conteudo_sobre {
+    flex-wrap: wrap;
+  }
+
+  .sobre_item {
+    width: 250px;
+    height: 300px;
+    padding: 10px 20px;
+  }
+
+  .sobre_item img {
+    width: 120px;
+  }
 }
