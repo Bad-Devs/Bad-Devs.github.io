@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -26,6 +27,7 @@ a {
   align-items: center;
   padding: 20px;
   background-color: #311700;
+  height: 10vh;
 }
 
 #cabecalho a {
@@ -55,12 +57,12 @@ li {
 }
 
 #conteudo {
-  height: 500px;
+  height: 80vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-direction: column;  
+  flex-direction: column;
   background-color: #311700;
 }
 
@@ -79,6 +81,7 @@ li {
 #rodape {
   padding: 20px;
   background-color: #5b3508;
+  height: 10vh;
 }
 
 #rodape p {
