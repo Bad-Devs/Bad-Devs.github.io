@@ -57,7 +57,7 @@ li {
 }
 
 #conteudo {
-  height: 465px;
+  height: 500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -87,7 +87,7 @@ li {
 
 #conteudo_sobre {
   display: flex;
-  height: 465px;
+  height: 500px;
   justify-content: center;
   align-items: center;
   background-color: #311700;
