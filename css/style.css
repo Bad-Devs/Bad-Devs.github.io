@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,300&display=swap');
-
+:root {
+    font-size: 16px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -92,7 +94,7 @@ li {
 
 #conteudo_sobre {
   display: flex;
-  height: 500px;
+  height: 80vh;
   justify-content: center;
   align-items: center;
   background-color: #311700;
@@ -164,15 +166,27 @@ li {
 }
 
 @media (max-width: 760px) {
+    h1{
+        font-size: 1.5em;
+        margin: 0 !important;
+    }
   #conteudo_sobre {
     flex-wrap: wrap;
-    height: 100%;
+    height: 80vh;
   }
+  #conteudo_sobre p {
+      font-size: 1.2em;
+  }
+  .sobre_item .redes_sociais a {
+      padding: 0 !important;
+  }
+
 }
 
 @media (max-width: 1000px) {
   #conteudo_sobre {
     flex-wrap: wrap;
+    overflow: scroll;
   }
 
   .sobre_item {
