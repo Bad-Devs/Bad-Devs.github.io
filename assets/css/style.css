@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap');
+
 * {
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 ul {
@@ -10,6 +16,19 @@ ul {
 a {
   text-decoration: none;
   color: #ecf0f1;
+  font: normal 600 1.2em 'Josefin Sans';
+}
+
+h1 {
+  font: normal 600 2.5em 'Josefin Sans';
+}
+
+h2 {
+  font: normal 600 2em 'Josefin Sans';
+}
+
+p {
+  font: normal 300 1.5em 'Josefin Sans';
 }
 
 /* ######## CABEÇALHO ######## */
@@ -36,3 +55,43 @@ a {
 
 /* ######## APRESENTAÇÃO ######## */
 
+#apresentacao {
+  background-color: #ff8243;
+  color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.item-container {
+  margin: 20px;
+}
+
+.item-container:nth-child(2) {
+  display: flex;
+}
+
+.item-box {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-box ul li {
+  font: normal 300 1.2em 'Josefin Sans';
+}
+
+.item-box ul li::before {
+  content: "> ";
+}
+
+.img_member {
+  width: 250px;
+  border-radius: 10px;
+}
