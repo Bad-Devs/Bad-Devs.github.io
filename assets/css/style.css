@@ -2,6 +2,7 @@
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -81,10 +82,13 @@ p {
   margin: 20px;
   display: flex;
   flex-direction: column;
+  background-color: #e26a2c;
 }
 
 .item-box ul li {
   font: normal 300 1.2em 'Josefin Sans';
+  background-color: #ff8243;
+  padding: 5px;
 }
 
 .item-box ul li::before {
