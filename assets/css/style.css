@@ -82,12 +82,10 @@ p {
   margin: 20px;
   display: flex;
   flex-direction: column;
-  background-color: #e26a2c;
 }
 
 .item-box ul li {
   font: normal 300 1.2em 'Josefin Sans';
-  background-color: #ff8243;
   padding: 5px;
 }
 
