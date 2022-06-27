@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -26,6 +30,10 @@ h1 {
 
 h2 {
   font: normal 600 2em 'Josefin Sans';
+}
+
+h3 {
+  font: normal 600 1.7em 'Josefin Sans';
 }
 
 p {
@@ -96,4 +104,56 @@ p {
 .img_member {
   width: 250px;
   border-radius: 10px;
+}
+
+/* ############## */
+
+#projetos:target {
+  scroll-margin-bottom: 2em;
+}
+
+#projetos {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFD07F;
+}
+
+#projetos .container-projetos {
+  background-color: #e26a2c;
+  width: 70vw;
+  /* padding: 10px; */
+  /* margin: 10px; */
+  color: #FFD07F;
+}
+
+.main-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  float: left;
+  width: 500px;
+  height: 400px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+  background: #FFD07F;
+}
+
+.circle {
+  background-color: #e26a2c;
+  border-radius: 100px;
+  padding: 30px;
+  margin: 10px;
+}
+
+.container-projetos h2 {
+  margin: 20px;
+}
+
+.fa-solid {
+  color: #ecf0f1;
+  font-size: 80px;
 }
