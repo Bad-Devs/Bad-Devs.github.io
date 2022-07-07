@@ -92,13 +92,25 @@ p {
   flex-direction: column;
 }
 
-.item-box ul li {
+.item-box .sobre-profile li {
   font: normal 300 1.2em 'Josefin Sans';
-  padding: 5px;
+  padding: 0px;
 }
 
-.item-box ul li::before {
+.item-box .sobre-profile li::before {
   content: "> ";
+}
+
+.socials-profile {
+  display: flex;
+}
+
+.socials-profile li {
+  margin: 2px 20px;
+}
+
+.socials-profile .fa-brands {
+  font-size: 40px;
 }
 
 .img_member {
