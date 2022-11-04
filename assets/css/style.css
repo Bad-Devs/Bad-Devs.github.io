@@ -62,6 +62,18 @@ p {
   margin: 0 20px;
 }
 
+.navegacao li a {
+  border-bottom: 2px solid #ff8243;
+  padding: 15px 10px 10px 10px;
+  transition: .5s;
+}
+
+.navegacao li a:hover {
+  background-color: #ff8243;
+  transition: .5s;
+  border-radius: 10px;
+}
+
 /* ######## APRESENTAÇÃO ######## */
 
 #apresentacao {
@@ -92,9 +104,14 @@ p {
   flex-direction: column;
 }
 
+.item-box img {
+  margin: 7px 0;
+}
+
 .item-box .sobre-profile li {
   font: normal 300 1.2em 'Josefin Sans';
   padding: 0px;
+  margin: 5px 0;
 }
 
 .item-box .sobre-profile li::before {
